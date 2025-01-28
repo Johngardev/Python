@@ -158,14 +158,24 @@
 # Dada una lista con un número impar de elementos, extrae el elemento que se encuentra en el centro de la lista utilizando slicing.
 # Ejemplo: lista = [10, 20, 30, 40, 50] -> El centro es 30
 
-lista = [10, 20, 30, 40, 50]
+#lista = [10, 20, 30, 40, 50]
 
-centro = len(lista) // 2
+#centro = len(lista) // 2
 
-elem_central= lista[centro]
+#elem_central= lista[centro]
 
-print("El centro es: ", elem_central)
+#print("El centro es: ", elem_central)
 
+# CON SLICING = Calculamos el índice central
+#centro = len(lista) // 2
+
+# Usamos slicing para extraer el elemento central
+#elemento_central = lista[centro:centro + 1]
+
+# Como slicing devuelve una lista, accedemos al primer (y único) elemento
+#elemento_central = elemento_central[0]
+
+#print("El centro es:", elemento_central)
 
 
 #-----------------------------------------------------------------------------------------#
