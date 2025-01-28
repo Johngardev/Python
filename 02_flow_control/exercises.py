@@ -52,6 +52,18 @@
 
 ### SOLUCION 3 ###
 
+#annio = input("Ingrese año: ")
+
+#if int(annio) % 4 == 0:
+#    if int(annio) % 100 == 0:
+#        int(annio) % 400 == 0
+#    else:
+#        print("Es bisiesto")
+#else:
+#    print("No es bisiesto")
+    
+
+
 #-----------------------------------------------------------------------------------------#
 
 # Ejercicio 4: Categorizar edades
@@ -62,6 +74,22 @@
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
 
+### SOLUCION 3 ###
+
+#edad = input("Ingrese edad :")
+
+#if int(edad) >= 0 and int(edad) <= 2:
+#    print("Eres bebe")
+#elif int(edad) >= 3 and int(edad) <= 12:
+#    print("Eres un Niño")
+#elif int(edad) >= 13 and int(edad) <= 17:
+#    print("Eres adolescente")
+#elif int(edad) >= 18 and int(edad) <= 64:
+#    print("Eres Adulto")
+#elif int(edad) >= 65:
+#    print("Eres Adulto mayor")
+#else:
+#    print("error")
 #-----------------------------------------------------------------------------------------#
 
 ###
