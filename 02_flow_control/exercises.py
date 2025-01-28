@@ -6,13 +6,53 @@
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
 
+### SOLUCION 1 ###
+
+#numberOne = input("Ingrese el primer numero: ")
+#numberTwo = input("Ingrese el segundo numero: ")
+
+#if numberOne > numberTwo:
+#    print("El primero numero es mayor")
+#elif numberTwo > numberOne:
+#    print("El segundo numero es mayor")
+#else:
+#    print("Son numeros iguales")
+
+#-----------------------------------------------------------------------------------------#
+
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
 
+### SOLUCION 2 ###
+
+#a = input("Ingrese el primer numero a operar: ")
+#b = input("Ingrese el segundo numero a operar: ")
+#op = input("Ingrese que operacion desea realizar (+), (-), (*) o (/): ")
+
+#if op == "+":
+#    print("Sumar: ", int(a) + int(b))
+#elif op == "-":
+#    print("Restar: ", int(a) - int(b))
+#elif op == "*":
+#    print("Multiplicar: ", int(a) * int(b))
+#elif op == "/":
+#    if b == 0:
+#        print("Indefinido: division por cero.")
+#    else:
+#        print("Division: ", int(a) / int(b))
+#else:
+#    print("Syntax error")
+
+#-----------------------------------------------------------------------------------------#
+
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
 # Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400.
+
+### SOLUCION 3 ###
+
+#-----------------------------------------------------------------------------------------#
 
 # Ejercicio 4: Categorizar edades
 # Pide al usuario que introduzca una edad y la clasifique en:
@@ -21,6 +61,8 @@
 # - Adolescente (13-17 años)
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
+
+#-----------------------------------------------------------------------------------------#
 
 ###
 # EJERCICOS LIST
@@ -31,10 +73,14 @@
 # mensaje = ["C", "o", "d", "i", "g", "o", " ", "s", "e", "c", "r", "e", "t", "o"]
 # Utilizando slicing y concatenación, crea una nueva lista que contenga solo el mensaje "secreto".
 
+#-----------------------------------------------------------------------------------------#
+
 # Ejercicio 2: Intercambio de posiciones
 # Dada la siguiente lista:
 # numeros = [10, 20, 30, 40, 50]
 # Intercambia la primera y la última posición utilizando solo asignación por índice.
+
+#-----------------------------------------------------------------------------------------#
 
 # Ejercicio 3: El sándwich de listas
 # Dadas las siguientes listas:
@@ -42,6 +88,8 @@
 # ingredientes = ["jamón", "queso", "tomate"]
 # pan_abajo = ["pan abajo"]
 # Crea una lista llamada sandwich que contenga el pan de arriba, los ingredientes y el pan de abajo, en ese orden.
+
+#-----------------------------------------------------------------------------------------#
 
 # Ejercicio 4: Duplicando la lista
 # Dada una lista:
